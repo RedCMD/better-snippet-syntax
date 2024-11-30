@@ -95,9 +95,10 @@
           "name": "punctuation.section.regexp.json.comments"
         },
         "16": {
+          "name": "meta.embedded.json.textmate.regexp",
           "patterns": [
             {
-              "include": "source.syntax.regexp.tmLanguage"
+              "include": "source.json.textmate.regexp"
             },
             {
               "match": "(?:(?:(\\\\)(\\\\\\/))|(?:(\\\\\\\\\\\\)(\\\\\\/)))",
@@ -1311,9 +1312,10 @@
           "name": "punctuation.section.insertion.json.comments punctuation.separator.colon.json.comments keyword.operator.insertion.json.comments custom.punctuation.separator.colon.json.comments"
         },
         "48": {
+          "name": "meta.embedded.json.textmate.regexp",
           "patterns": [
             {
-              "include": "source.syntax.regexp.tmLanguage"
+              "include": "source.json.textmate.regexp"
             },
             {
               "match": "(?:(?:(\\\\)(\\\\\\/))|(?:(\\\\\\\\\\\\)(\\\\\\/)))",
@@ -2136,9 +2138,10 @@
           "name": "punctuation.section.regexp.json.comments"
         },
         "116": {
+          "name": "meta.embedded.json.textmate.regexp",
           "patterns": [
             {
-              "include": "source.syntax.regexp.tmLanguage"
+              "include": "source.json.textmate.regexp"
             },
             {
               "match": "(?:(?:(\\\\)(\\\\\\/))|(?:(\\\\\\\\\\\\)(\\\\\\/)))",
@@ -4422,9 +4425,10 @@
           "name": "punctuation.section.regexp.json.comments"
         },
         "15": {
+          "name": "meta.embedded.json.textmate.regexp",
           "patterns": [
             {
-              "include": "source.syntax.regexp.tmLanguage"
+              "include": "source.json.textmate.regexp"
             },
             {
               "match": "(?:(?:(\\\\)(\\\\\\/))|(?:(\\\\\\\\\\\\)(\\\\\\/)))",
@@ -5657,9 +5661,10 @@
           "name": "punctuation.section.regexp.json.comments"
         },
         "2": {
+          "name": "meta.embedded.json.textmate.regexp",
           "patterns": [
             {
-              "include": "source.syntax.regexp.tmLanguage"
+              "include": "source.json.textmate.regexp"
             },
             {
               "match": "(?:(?:(\\\\)(\\\\\\/))|(?:(\\\\\\\\\\\\)(\\\\\\/)))",

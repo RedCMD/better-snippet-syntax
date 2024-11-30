@@ -516,8 +516,9 @@ grammar.scope_name = "source.json.comments"
                         match: grammar[:regex_backslash_escape].or(/[^\/\n]/),
                         # dont_back_track?: false,
                     ),
+                    tag_as: "meta.embedded.json.textmate.regexp",
                     includes: [
-                        "source.syntax.regexp.tmLanguage", # FIXME: this include isnt working
+                        "source.json.textmate.regexp", # FIXME: this include isnt working
                         grammar[:regex_backslash_escape],
                         # TODO: this is where to add regex highlighting similar to https://github.com/RedCMD/TmLanguage-Syntax-Highlighter
                         #       maybe could just embed his
